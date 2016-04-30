@@ -1,0 +1,25 @@
+{
+  "name": "rwby-db",
+  "version": "0.0.1",
+  "authors": [
+    "Tony Estrada <aestrada7@outlook.com>"
+  ],
+  "dependencies": {
+    "nedb": "1.6.0",
+    "modernizr": "2.8.3",
+    "angular": "1.5.5",
+    "angular-ui-router": "ssh://git@stash.bbpd.io/shared/angular-ui-router.git#6961baa0365e03899c962fb3e9b544729402e037",
+    "foundation-sites": "6.2.1",
+    "foundation-icon-fonts": "git://github.com/zurb/foundation-icon-fonts.git#*"
+  },
+  "exportsOverride": {
+    "foundation-sites": {
+      "js": "dist/*.js",
+      "scss": "scss"
+    },
+    "foundation-icon-fonts": {
+      "svgs": "svgs",
+      "": "*@(scss|eot|svg|ttf|woff)"
+    }
+  }
+}
