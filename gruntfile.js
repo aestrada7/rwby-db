@@ -45,12 +45,22 @@ module.exports = function(grunt) {
     parallel: {
       watchers: {
         tasks: [{
-          //grunt: true,
-          //args: ['shell:nw']
+          grunt: true,
+          args: ['http-server']
         }, {
           stream: true,
           args: ['watch']
         }]
+      }
+    },
+
+    'http-server': {
+      'dev': {
+        root: 'app/',
+        port: 84,
+        host: '127.0.0.1',
+        runInBackground: false,
+        logFn: function(req, res, error) { },
       }
     }
   });

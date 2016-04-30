@@ -1,0 +1,13 @@
+{ "id": 1, "name": "Ruby", "lastName": "Rose", "status": "Alive", "race": "Human", "weapon": "Crescent Rose" }
+{ "id": 2, "name": "Yang", "lastName": "Xiao Long", "status": "Alive", "race": "Human", "weapon": "Ember Celica" }
+{ "id": 3, "name": "Weiss", "lastName": "Schnee", "status": "Alive", "race": "Human", "weapon": "" }
+{ "id": 4, "name": "Blake", "lastName": "Belladona", "status": "Alive", "race": "Faunus", "weapon": "" }
+{ "id": 5, "name": "Junior", "lastName": "", "status": "Alive", "race": "Human", "weapon": "" }
+{ "id": 6, "name": "Adam", "lastName": "Taurus", "status": "Alive", "race": "Faunus", "weapon": "" }
+{ "id": 7, "name": "Roman", "lastName": "Torchwick", "status": "Deceased", "race": "Human", "weapon": "", "killedBy": "Grimm" }
+{ "id": 8, "name": "Glynda", "lastName": "Goodwitch", "status": "Alive", "race": "Human", "weapon": "" }
+{ "id": 9, "name": "Cinder", "lastName": "Fall", "status": "Alive", "race": "Human", "weapon": "" }
+{ "id": 10, "name": "", "lastName": "Ozpin", "status": "Alive", "race": "Human", "weapon": "" }
+{ "id": 11, "name": "Salem", "lastName": "", "status": "Alive", "race": "", "weapon": "" }
+{ "id": 12, "name": "Jaune", "lastName": "Arc", "status": "Alive", "race": "Human", "weapon": "" }
+{ "id": 13, "name": "Qrow", "lastName": "Bromwen", "status": "Alive", "race": "Human/Crow", "weapon": "" }

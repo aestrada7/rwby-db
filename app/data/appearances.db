@@ -1,0 +1,14 @@
+{ "episodeId": 5, "characterId": 1 }
+{ "episodeId": 5, "characterId": 2 }
+{ "episodeId": 5, "characterId": 7 }
+{ "episodeId": 5, "characterId": 8 }
+{ "episodeId": 5, "characterId": 9 }
+{ "episodeId": 5, "characterId": 10 }
+{ "episodeId": 5, "characterId": 11, "voiceOnly": 1 }
+{ "episodeId": 5, "characterId": 12 }
+{ "episodeId": 5, "characterId": 13, "mentionedOnly": 1 }
+{ "episodeId": 6, "characterId": 1 }
+{ "episodeId": 6, "characterId": 2 }
+{ "episodeId": 6, "characterId": 12 }
+{ "episodeId": 6, "characterId": 3 }
+{ "episodeId": 6, "characterId": 4 }

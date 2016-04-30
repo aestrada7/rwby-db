@@ -1,0 +1,37 @@
+<html ng-app="rwbyDB">
+  <head>
+    <title ng-bind="index.title">RWBY DB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, maximum-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./build/styles/rwby-db.css" />
+  </head>
+  <body>
+    <script src="./vendor/jquery/jquery.js"></script>
+    <script src="./vendor/modernizr/modernizr.js"></script>
+    <script src="./vendor/nedb/js/nedb.js"></script>
+    <script src="./vendor/foundation-sites/js/foundation.js"></script>
+    <script src="./vendor/angular/angular.js"></script>
+    <script src="./vendor/angular-ui-router/angular-ui-router.js"></script>
+    <script src="./app.js"></script>
+    <script>
+      $(document).foundation();
+
+      //Move to its own angular service
+      $.ajax({
+        type: 'GET',
+        url: 'data/characters.db',
+        success: function(result, status, xhr) {
+          console.log(result);
+          //insert each line in the db, leave it available
+          var db = new Nedb({ filename: 'data/characters.db', autoload: true });
+          db.find({}, function(err, results) {
+            console.log(results);
+            console.log('done!');
+          });
+        },
+        error: function(result, status, xhr) { console.log(status); }
+      });
+      
+    </script>
+  </body>
+</html>
